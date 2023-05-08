@@ -11,4 +11,4 @@ class Problem
     }
 }
 
-echo Problem::average(2, 1);
+echo average(2, 1);
