@@ -10,4 +10,8 @@ studentId INTEGER NOT NULL
 
 */
 
+update enrollments
+set year = 2020
+where (id >= 20) and (id <=100)
+
 -- todo sql
