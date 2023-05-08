@@ -30,4 +30,8 @@ Escriba una consulta en SQL que seleccione los distintos nombres de manera únic
 Luego que la escribas podes ejecutarla y probarla sobre las tablas que están en el enunciado.
 */
 
+select name from dogs
+union
+select name from cats
+
 -- todo sql
