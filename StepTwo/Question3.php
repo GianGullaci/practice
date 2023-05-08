@@ -22,6 +22,9 @@ class Problem
 {
     public static function groupByOwners(array $files) : array
     {
+        foreach ($files as $nombre => $prop) {
+                
+            }
         return [];
     }
 }
