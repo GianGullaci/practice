@@ -21,7 +21,7 @@ class Designer
         $this->name = $name;
     }
 
-    public function getPortfolioUrl(): string
+    public function getPortfolioUrl(string $portfolioUrl): string
     {
         return $this->portfolioUrl;
     }
@@ -47,7 +47,7 @@ class Programmer
         $this->name = $name;
     }
 
-    public function getGithubUrl(): string
+    public function getGithubUrl(string $githubUrl): string
     {
         return $this->githubUrl;
     }
@@ -62,7 +62,7 @@ class Programmer
 
 //... some more code...
 $designer = new Designer();
-$designer->setName(['Jane Smith'])
+$designer->setName('Jane Smith')
     ->setPorfolioUrl('https://www.behance.net/jane_smthith_90');
 
 //... some code...
