@@ -11,6 +11,14 @@ class Problem
 {
     static function unique_names(array $array1, array $array2): array
     {
+        $array = [];
+            foreach ($array1 as $valor1) {
+                foreach ($array as $valor) {
+                    if ($valor1 == $valor) {
+
+                    }
+                }
+            }
         return [];
     }
 }
